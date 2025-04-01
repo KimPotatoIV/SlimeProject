@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://1vyggxfyjpxi"]
+
+[ext_resource type="PackedScene" uid="uid://dhadl0dkcyaje" path="res://scenes/terrain/terrain.tscn" id="1_iuonh"]
+[ext_resource type="PackedScene" uid="uid://cfx1a5dld4cjv" path="res://scenes/spawner/spawner.tscn" id="3_k2fmo"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Terrain" parent="." instance=ExtResource("1_iuonh")]
+
+[node name="Spawner" parent="." instance=ExtResource("3_k2fmo")]

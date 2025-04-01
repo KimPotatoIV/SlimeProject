@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://wiiasbq871p5"]
+
+[ext_resource type="Script" uid="uid://cpqva0bg8h60u" path="res://slime.gd" id="1_yq0o5"]
+
+[node name="Slime" type="CharacterBody2D"]
+script = ExtResource("1_yq0o5")
